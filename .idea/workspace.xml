@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad4515c-bc24-4033-8a36-e9fd4abab721" name="Changes" comment="add Readme.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
+    <list default="true" id="4ad4515c-bc24-4033-8a36-e9fd4abab721" name="Changes" comment="criada as classes Mentoria e Curso">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Bootcamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Dev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643334084965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criada as classes Mentoria e Curso">
+      <created>1643412331987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643412331987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Readme.md" />
+    <MESSAGE value="criada as classes Mentoria e Curso" />
+    <option name="LAST_COMMIT_MESSAGE" value="criada as classes Mentoria e Curso" />
   </component>
 </project>
