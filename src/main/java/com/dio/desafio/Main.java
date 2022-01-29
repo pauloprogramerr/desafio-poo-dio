@@ -1,8 +1,7 @@
 package com.dio.desafio;
 
-import com.dio.desafio.dominio.Conteudo;
-import com.dio.desafio.dominio.Curso;
-import com.dio.desafio.dominio.Mentoria;
+import com.dio.desafio.dominio.*;
+
 import java.time.LocalDate;
 
 public class Main {
@@ -17,8 +16,8 @@ public class Main {
         curso2.setDescricao("descrição curso Js");
         curso2.setCargaHoraria(4);
 
-        // polimorfismo
-        Conteudo conteudo = new Curso();
+        /*// polimorfismo
+        Conteudo conteudo = new Curso();*/
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de java");
@@ -45,10 +44,8 @@ public class Main {
         devCamila.progredir();
         devCamila.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos: "
-                + devCamila.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos: "
-                + devCamila.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos: " + devCamila.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos: " + devCamila.getConteudosConcluidos());
         System.out.println("XP: "+ devCamila.calcularTotalXp());
 
         System.out.println("--------------------------");
@@ -56,16 +53,13 @@ public class Main {
         Dev devPaulo = new Dev();
         devPaulo.setNome("Paulo");
         devPaulo.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos "
-                + devPaulo.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos " + devPaulo.getConteudosInscritos());
         devPaulo.progredir();
         devPaulo.progredir();
         devPaulo.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos "
-                + devPaulo.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos "
-                + devPaulo.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos " + devPaulo.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos " + devPaulo.getConteudosConcluidos());
         System.out.println("XP: "+ devPaulo.calcularTotalXp());
 
 

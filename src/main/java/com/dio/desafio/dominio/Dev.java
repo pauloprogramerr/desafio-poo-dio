@@ -1,4 +1,4 @@
-package com.dio.desafio;
+package com.dio.desafio.dominio;
 
 import com.dio.desafio.dominio.Conteudo;
 

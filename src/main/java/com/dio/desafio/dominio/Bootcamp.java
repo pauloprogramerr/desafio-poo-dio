@@ -1,6 +1,4 @@
-package com.dio.desafio;
-
-import com.dio.desafio.dominio.Conteudo;
+package com.dio.desafio.dominio;
 
 import java.time.LocalDate;
 import java.util.HashSet;
