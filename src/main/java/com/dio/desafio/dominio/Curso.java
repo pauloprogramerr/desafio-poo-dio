@@ -1,5 +1,6 @@
 package com.dio.desafio.dominio;
 
+
 public class Curso extends Conteudo{
 
     // Encapsulamento
@@ -24,7 +25,7 @@ public class Curso extends Conteudo{
     }
 
     @Override
-    public double calcularXP() {
+    public double calcularXp() {
         return XP_PADRAO * cargaHoraria;
     }
 }

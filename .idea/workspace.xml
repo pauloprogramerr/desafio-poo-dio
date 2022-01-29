@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad4515c-bc24-4033-8a36-e9fd4abab721" name="Changes" comment="criada as classes Mentoria e Curso">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Bootcamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Dev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
+    <list default="true" id="4ad4515c-bc24-4033-8a36-e9fd4abab721" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Dev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dio.desafio.Main" />
+      <module name="desafio-dio-poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dio.desafio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643412331987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final">
+      <created>1643418703570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643418703570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +124,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add Readme.md" />
     <MESSAGE value="criada as classes Mentoria e Curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="criada as classes Mentoria e Curso" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

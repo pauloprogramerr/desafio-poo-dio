@@ -1,6 +1,8 @@
 package com.dio.desafio.dominio;
 
+
 import java.time.LocalDate;
+
 
 public class Mentoria extends Conteudo{
 
@@ -24,7 +26,7 @@ public class Mentoria extends Conteudo{
     }
 
     @Override
-    public double calcularXP() {
+    public double calcularXp() {
         return XP_PADRAO + 20d;
     }
 }
